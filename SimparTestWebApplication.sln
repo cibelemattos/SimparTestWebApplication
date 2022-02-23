@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimparTestWebApplication", "SimparTestWebApplication.csproj", "{C75280A1-F64A-4403-ADC1-EA60BE5C1BA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimparTestWebApplication", "SimparTestWebApplication.csproj", "{C75280A1-F64A-4403-ADC1-EA60BE5C1BA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0627F438-4DBF-4975-8979-244B47ADC2BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimparTest.Model", "SimparTest.Model\SimparTest.Model.csproj", "{42010E60-9C26-401D-AD9A-7D610841E075}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,17 @@ Global
 		{C75280A1-F64A-4403-ADC1-EA60BE5C1BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C75280A1-F64A-4403-ADC1-EA60BE5C1BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C75280A1-F64A-4403-ADC1-EA60BE5C1BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42010E60-9C26-401D-AD9A-7D610841E075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42010E60-9C26-401D-AD9A-7D610841E075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42010E60-9C26-401D-AD9A-7D610841E075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42010E60-9C26-401D-AD9A-7D610841E075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C75280A1-F64A-4403-ADC1-EA60BE5C1BA2} = {0627F438-4DBF-4975-8979-244B47ADC2BB}
+		{42010E60-9C26-401D-AD9A-7D610841E075} = {0627F438-4DBF-4975-8979-244B47ADC2BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D4AC8D9-6194-4416-B00D-236A6CC47D03}
